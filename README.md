@@ -54,7 +54,7 @@ This project implements an end-to-end solution for CAPTCHA recognition by:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/mianafzaal297/Captchas-Task.git
 cd "Captchas Task"
 
 # Install required packages
