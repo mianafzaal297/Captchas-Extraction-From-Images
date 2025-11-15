@@ -115,100 +115,18 @@ Sample predictions on test images with confidence scores:
 
 ![Test Predictions 1](images/test_prediction_1.png)
 ![Test Predictions 2](images/test_prediction_2.png)
+![Test Predictions 3.1](images/test_prediction_3.1.png)
+![Test Predictions 3.2](images/test_prediction_3.2.png)
 
 Each prediction shows:
 - Original CAPTCHA image
 - Thresholded binary image with segmentation lines
 - Individual character predictions with confidence scores
 
-## 🔍 Key Functions
-
-### `segment_characters_from_binary(binary_img)`
-Segments characters using horizontal projection analysis on binary images.
-
-**Parameters:**
-- `binary_img`: Binary image (0/255 values)
-
-**Returns:**
-- List of (start, end) tuples representing character boundaries
-
-### `visualize_test_images(max_images=6)`
-Visualizes predictions on test images with detailed character-level analysis.
-
-**Features:**
-- Side-by-side original and thresholded images
-- Segmentation boundary visualization
-- Character-level predictions with confidence scores
-
-## 📈 Performance Metrics
-
-| Metric | Value |
-|--------|-------|
-| Total Characters Segmented | ~125 |
-| Unique Character Classes | 10 (0-9) or 36 (0-9, A-Z) |
-| Training Samples | ~112 |
-| Validation Samples | ~13 |
-| Model Parameters | ~150K |
-
-## 🔧 Customization
-
-### Adjusting Segmentation Sensitivity
-
-```python
-# In segment_characters_from_binary function
-threshold = 0  # Increase for stricter segmentation
-```
-
-### Modifying Model Architecture
-
-```python
-# Add more layers or change parameters
-model = Sequential([
-    Conv2D(64, (3,3), activation='relu', input_shape=(IMG_H, IMG_W, 1)),
-    # ... customize layers
-])
-```
-
-## 🐛 Troubleshooting
-
-**Issue**: Characters not segmenting properly
-- **Solution**: Adjust threshold value in segmentation function
-
-**Issue**: Low model accuracy
-- **Solution**: Increase EPOCHS, adjust learning rate, or augment training data
-
-**Issue**: Memory errors during training
-- **Solution**: Reduce BATCH_SIZE or resize images to smaller dimensions
-
-## 📝 Future Improvements
-
-- [ ] Add data augmentation (rotation, scaling, noise)
-- [ ] Implement transfer learning with pre-trained models
-- [ ] Support for alphanumeric CAPTCHAs
-- [ ] Real-time CAPTCHA solving API
-- [ ] Model optimization for deployment
-- [ ] Advanced segmentation techniques for overlapping characters
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername]
-- Email: your.email@example.com
+- GitHub: [@mianafzaal297]
+- Email: mianafzaal097@gmail.com
 
-## 🙏 Acknowledgments
-
-- OpenCV community for excellent documentation
-- TensorFlow/Keras team for the deep learning framework
-- CAPTCHA datasets for training and testing
-
----
-
-⭐ If you find this project helpful, please consider giving it a star!
+⭐ ~~~~~~ Thank You ~~~~~~!
