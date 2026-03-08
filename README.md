@@ -125,7 +125,7 @@ Each prediction shows:
 
 ## 👤 Author
 
-**Your Name**
+**Muhammad Afzaal**
 - GitHub: [@mianafzaal297]
 - Email: mianafzaal097@gmail.com
 
