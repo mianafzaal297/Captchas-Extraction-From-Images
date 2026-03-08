@@ -75,7 +75,7 @@ Execute cells sequentially to:
 1. Load and preprocess images
 2. Segment characters
 3. Train the model
-4. Evaluate on test set
+4. Evaluate on the test set
 
 
 
@@ -95,7 +95,7 @@ Below is an example of the preprocessing pipeline:
 
 ### Character Segmentation
 
-Individual characters are extracted using horizontal projection method:
+Individual characters are extracted using the horizontal projection method:
 
 ![Segmented Characters](images/segmented_characters.png)
 
